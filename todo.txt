@@ -1,0 +1,40 @@
+json 
+
+login
+	autogenerate session (session unlimited)
+
+insert red card
+	insert time
+insert green card
+	insert time
+query total card
+	latest card
+		tanggal waktu nama
+	analysis
+		kelas total_red total_green balance
+----------------------------------
+query card sorted by student
+	Latest Card
+	query card sorted by class
+	query card sorted by name
+	query card sorted by start_date
+	query card sorted by finish_date
+	
+	Analysis
+	query card sorted by description	
+
+query card sorted with class filter
+	query card sorted by school
+	query card sorted by level
+	query card sorted by gender
+	query card sorted by start_date
+	query card sorted by finish_date
+
+queery card with many filters (detail)
+	query card sorted by jenis_kartu
+	query card sorted by detil
+	query card sorted by school
+	query card sorted by level
+	query card sorted by gender
+	query card sorted by start_date
+	query card sorted by finish_date
